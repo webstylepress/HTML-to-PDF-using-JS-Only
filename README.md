@@ -1,4 +1,4 @@
-# HTML-to-PDF-using-JS-Only
+# HTML to PDF using JavaScript Only
 HTML to PDF using JS Only
 
 YouTube Tutorial
