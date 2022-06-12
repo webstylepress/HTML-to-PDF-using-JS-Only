@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>WebStylePress</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="custom.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div id="content">
+				<h3 style="color: red"
+					>Generate & Download PDF From Page Section Using JS</h3
+				>
+				<hr />
+				<p
+					>Click at buttons below to <mark>generate PDF</mark> and
+					<u>download it</u> using <i>only JavaScript</i>. We can
+					<strong>Generate PDF</strong> from whole page. We can target class or
+					ID and generate PDF from only a section in page -
+					<span style="color: blue">a part of page.</span></p
+				>
+				<img src="js.png" class="img-fluid d-block mx-auto" />
+			</div>
+
+			<br />
+
+			<button id="btn-print" class="btn btn-success btn-lg"
+				>Print & Generate PDF</button
+			>
+
+			<button id="btn-one" class="btn btn-success btn-lg"
+				>Download PDF (With Styles & Images / Same Page)</button
+			>
+
+			<button id="btn-two" class="btn btn-success btn-lg"
+				>Generate PDF From iFrame</button
+			>
+
+			<iframe
+				id="frame"
+				style="width: 100%; border: 0; height: 0"
+				src="receipt.html"
+			></iframe>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+			integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+
+		<script src="custom.js"></script>
+	</body>
+</html>

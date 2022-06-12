@@ -1,0 +1,108 @@
+body,
+* {
+	color-adjust: exact !important;
+	-webkit-print-color-adjust: exact !important;
+	print-color-adjust: exact !important;
+}
+
+.text-danger strong {
+	color: #006fb3;
+}
+.receipt-main {
+	background: #ffffff none repeat scroll 0 0;
+	border-bottom: 12px solid #333333;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-top: 12px solid #006fb3;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 40px 30px !important;
+	position: relative;
+	color: #333333;
+	font-family: open sans;
+}
+.receipt-main p {
+	color: #333333;
+	font-family: open sans;
+	line-height: 1.42857;
+}
+.receipt-footer h1 {
+	font-size: 15px;
+	font-weight: 400 !important;
+	margin: 0 !important;
+}
+.receipt-main::after {
+	background: #414143 none repeat scroll 0 0;
+	content: '';
+	height: 5px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: -13px;
+}
+.receipt-main thead {
+	background: #414143 none repeat scroll 0 0;
+}
+
+.receipt-main th,
+.receipt-main thead tr {
+	background-color: #414143;
+}
+
+.receipt-main thead th {
+	color: #fff;
+}
+
+.receipt-right h5 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 7px 0;
+}
+.receipt-right p {
+	font-size: 13px;
+	margin: 0px;
+}
+.receipt-right p i {
+	text-align: center;
+	width: 18px;
+}
+.receipt-main td {
+	padding: 9px 20px !important;
+}
+.receipt-main th {
+	padding: 13px 20px !important;
+}
+.receipt-main td {
+	font-size: 14px;
+	font-weight: initial !important;
+}
+.receipt-main td p:last-child {
+	margin: 0;
+	padding: 0;
+}
+.receipt-main td h2 {
+	font-size: 20px;
+	font-weight: 900;
+	margin: 0;
+	text-transform: uppercase;
+}
+.receipt-header-mid .receipt-left h1 {
+	font-weight: 100;
+	margin: 34px 0 0;
+	text-align: right;
+	text-transform: uppercase;
+}
+.receipt-header-mid {
+	margin: 24px 0;
+	overflow: hidden;
+}
+
+#container {
+	background-color: #dcdcdc;
+}
+
+@media print {
+	.receipt-main thead th {
+		color: #333;
+	}
+}
